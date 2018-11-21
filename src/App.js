@@ -3,11 +3,21 @@ import headerLogo from './utilities/reactgithub.jpg';
 import Form from './components/Form';
 
 class App extends Component {
+  state = {
+    cards: []
+  };
+
+  addNewCard = cardInfo => {
+    this.setState(prevState => ({
+      cards: prevState.cards.concat(cardInfo)
+    }));
+  };
+
   render() {
     return (
       <div style={styles.app}>
         <img src={headerLogo} style={{ height: '20vmin' }} alt="react&github"/>
-        <Form />
+        <Form onSubmit={this.addNewCard} />
       </div>
     );
   }
