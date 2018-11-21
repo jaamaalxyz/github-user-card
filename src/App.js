@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import headerLogo from './utilities/reactgithub.jpg';
 import Form from './components/Form';
+import CardList from './components/CardList';
 
 class App extends Component {
   state = {
@@ -18,6 +19,7 @@ class App extends Component {
       <div style={styles.app}>
         <img src={headerLogo} style={{ height: '20vmin' }} alt="react&github"/>
         <Form onSubmit={this.addNewCard} />
+        <CardList cards={this.state.cards} />
       </div>
     );
   }
