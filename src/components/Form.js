@@ -5,12 +5,17 @@ export class Form extends React.Component {
     userName: ''
   };
 
+  handleInput = (e) => {
+    this.setState({ userName: e.target.value });
+  }
+
   render() {
     return (
       <form>
         <input
           type="text"
           value={this.state.userName}
+          onChange={this.handleInput}
           placeholder="GitHub Username"
           required
         />
