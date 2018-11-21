@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import headerLogo from './utilities/reactgithub.jpg';
+import Form from './components/Form';
 
 class App extends Component {
   render() {
     return (
       <div style={styles.app}>
         <img src={headerLogo} style={{ height: '20vmin' }} alt="react&github"/>
+        <Form />
       </div>
     );
   }
