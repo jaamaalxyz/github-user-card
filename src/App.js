@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import headerLogo from './utilities/reactgithub.jpg';
 
 class App extends Component {
   render() {
     return (
       <div style={styles.app}>
-        <h1>Hello World!</h1>
-        <p>We are React developer from Bangladesh</p>
+        <img src={headerLogo} style={{ height: '20vmin' }} alt="react&github"/>
       </div>
     );
   }
