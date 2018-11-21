@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from './logo.svg';
 import Form from './components/Form';
 import CardList from './components/CardList';
 import styles from './utilities/styles';
+import logo from './utilities/reactgithub.jpg';
 
 class App extends React.Component {
   state = {

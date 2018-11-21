@@ -3,7 +3,9 @@ const styles = {
   // Main app styles
   appLogo: {
     animation: 'appLogoSpin infinite 20s linear',
-    height: '40vmin'
+    height: '20vmin',
+    margin: 20,
+    borderRadius: 20
   },
   app: {
     backgroundColor: '#282c34',
@@ -37,11 +39,12 @@ const styles = {
   },
   // Card styles
   column: {
-    width: '100%',
+    width: '80%',
     marginBottom: 16,
     padding: '8px',
     backgroundColor: 'white',
-    borderRadius: 10
+    borderRadius: 10,
+    margin: '1em'
   },
   card: { 
     margin: '1em',
