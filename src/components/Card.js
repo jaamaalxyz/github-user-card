@@ -8,7 +8,7 @@ export const Card = props => {
         <img alt="avatar" style={styles.cardImg} src={props.avatar_url} />
         <div style={styles.cardContainer}>
           <h2 style={styles.cardUserName}>{props.name}</h2>
-          <p style={styles.cardTitle}>{props.title}</p>
+          <p style={styles.cardTitle}>{props.bio}</p>
           <p>{props.blog}</p>
           <p><button style={styles.cardButton}>Contact</button></p>
         </div>
