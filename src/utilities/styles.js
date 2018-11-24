@@ -1,12 +1,6 @@
 // styles (css in js)
 const styles = {
   // Main app styles
-  appLogo: {
-    animation: 'appLogoSpin infinite 20s linear',
-    height: '20vmin',
-    margin: 20,
-    borderRadius: 20
-  },
   app: {
     backgroundColor: '#282c34',
     minHeight: '100vh',
@@ -14,6 +8,12 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     color: 'white'
+  },
+  appLogo: {
+    animation: 'appLogoSpin infinite 20s linear',
+    height: '20vmin',
+    margin: 20,
+    borderRadius: 20
   },
   // Form styles
   form: {
@@ -34,11 +34,14 @@ const styles = {
   },
   // CardList style
   cardGroup: {
-    display: 'flex'
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   // Card styles
   column: {
-    width: '80%',
+    width: '60%',
     marginBottom: 16,
     padding: '8px',
     backgroundColor: 'white',
