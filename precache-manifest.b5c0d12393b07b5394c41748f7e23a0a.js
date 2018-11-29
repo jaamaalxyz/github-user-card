@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/github-user-card/static/js/runtime~main.9c4d07ac.js"
   },
   {
-    "revision": "b234e14bcfb5db476240",
-    "url": "/github-user-card/static/js/main.b234e14b.chunk.js"
+    "revision": "2aadf60af26d5c38fa1e",
+    "url": "/github-user-card/static/js/main.2aadf60a.chunk.js"
   },
   {
     "revision": "1a41f4ec07e4f556afa1",
     "url": "/github-user-card/static/js/1.1a41f4ec.chunk.js"
   },
   {
-    "revision": "b234e14bcfb5db476240",
+    "revision": "2aadf60af26d5c38fa1e",
     "url": "/github-user-card/static/css/main.073395e6.chunk.css"
   },
   {
-    "revision": "dfab3efc02dcc4b6cf2cffdf1af733b5",
+    "revision": "be18e08910d39cfe8ab286897ff5fac9",
     "url": "/github-user-card/index.html"
   }
 ];
